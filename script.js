@@ -1,3 +1,12 @@
+window.addEventListener("load", function() {
+  const preloader = document.getElementById("preloader");
+  const content = document.getElementById("content");
+
+  preloader.style.display = "none";
+  content.style.display = "block";
+});
+
+
 //tranlucent navbar
 
 window.addEventListener('scroll', function() {
@@ -317,5 +326,6 @@ function highlightOnScroll2() {
 window.addEventListener('scroll', highlightOnScroll2);
 window.addEventListener('load', highlightOnScroll2);
 window.addEventListener('resize', highlightOnScroll2); // Ensures class is removed if resizing beyond 1000px
+
 
 /*-------------CERTIFICATES-SECTION-ENDS--------------*/
