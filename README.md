@@ -32,11 +32,6 @@ You can view the live version here:
 
 ---
 
-## 📷 PREVIEW
-
-![Portfolio Preview](https://github.com/MILANMIRG/PORTFOLIO/blob/main/DATA/display.gif?raw=true)
-
----
 
 ## 👤 Author
 
