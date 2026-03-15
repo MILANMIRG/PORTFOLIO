@@ -134,26 +134,6 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 //tilt-animation
-document.addEventListener("DOMContentLoaded", () => {
-  const containers = document.querySelectorAll(".profile-container");
-
-  containers.forEach((container) => {
-    container.addEventListener("mousemove", (e) => {
-      const { width, height, left, top } = container.getBoundingClientRect();
-      const x = e.clientX - left;
-      const y = e.clientY - top;
-
-      const rotateX = ((y / height) - 0.5) * 50;
-      const rotateY = ((x / width) - 0.5) * -50;
-
-      container.style.transform = `rotateX(${rotateX}deg) rotateY(${rotateY}deg)`;
-    });
-
-    container.addEventListener("mouseleave", () => {
-      container.style.transform = "rotateX(0) rotateY(0)";
-    });
-  });
-});
 
 
 document.addEventListener("DOMContentLoaded", () => {
